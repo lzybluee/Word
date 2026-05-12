@@ -1,6 +1,24 @@
 {
   "embeddings": [
     {
+      "tensorName": "Tencent 100K",
+      "tensorShape": [100000, 200],
+      "tensorPath": "oss_data/tencent_zh_d200_100k.bytes",
+      "metadataPath": "oss_data/tencent_zh_d200_100k.tsv"
+    },
+    {
+      "tensorName": "Tencent 500K",
+      "tensorShape": [500000, 200],
+      "tensorPath": "oss_data/tencent_zh_d200_500k.bytes",
+      "metadataPath": "oss_data/tencent_zh_d200_500k.tsv"
+    },
+    {
+      "tensorName": "Tencent 2M",
+      "tensorShape": [2000000, 200],
+      "tensorPath": "oss_data/tencent_zh_d200_2m.bytes",
+      "metadataPath": "oss_data/tencent_zh_d200_2m.tsv"
+    },
+    {
       "tensorName": "Word2Vec 10K",
       "tensorShape": [10000, 200],
       "tensorPath": "oss_data/word2vec_10000_200d_tensors.bytes",

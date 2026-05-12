@@ -1,0 +1,12 @@
+embeddings {
+  tensor_name: "Tencent 100K"
+  tensor_path: "tencent_zh_d200_100k.bytes"
+  tensor_shape: [100000, 200]
+  metadata_path: "tencent_zh_d200_100k.tsv"
+}
+embeddings {
+  tensor_name: "Word2Vec All"
+  tensor_path: "word2vec_full_200d_tensors.bytes"
+  tensor_shape: [71291, 200]
+  metadata_path: "word2vec_full_200d_labels.tsv"
+}
