@@ -1,9 +1,9 @@
-python -m pip list | find "tensorboard"
+py -3.10 -m pip list | find "tensorboard"
 if %errorlevel% neq 0 (
     python -m pip install tensorboard
 )
 
-start /b python -m tensorboard.main --logdir oss_data --port 6006 --bind_all
+start /b py -3.10 -m tensorboard.main --logdir oss_data --port 6006 --bind_all
 
 :loop
 sleep 2
@@ -15,4 +15,4 @@ if %errorlevel% == 0 (
 )
 :end
 
-start "" "http://localhost:6006#projector"
+start "" "http://127.0.0.1:6006#projector"
